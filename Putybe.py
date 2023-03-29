@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 
-bot = Bot("6243589470:AAG5VyG-MjWfEcz5-llAH75pr8hu0ZkPwLw")
+bot = Bot("")
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=["start"])
